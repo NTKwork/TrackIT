@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Track It</string>
+    <string name="ic">icon</string>
+    <string name="flight">Flights</string>
+    <string name="parcel">Parcel</string>
+    <string name="favorites">Favorites</string>
+    <string name="tracking">Tracking</string>
+</resources>
