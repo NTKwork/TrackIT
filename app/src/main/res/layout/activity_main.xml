@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,59 +16,31 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <android.support.v7.widget.CardView
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:layout_margin="10dp"
-            android:clickable="true"
-            android:focusable="true">
+            style="@style/CardStyle">
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:background="@color/colorTextPrimary"
-                android:orientation="vertical">
+                style="@style/CardLayout">
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    style="@style/CardImage"
                     android:src="@drawable/ic_airplanemode_active_black_24dp"
                     android:background="@drawable/button_menu"
-                    android:contentDescription="@string/ic"
-                    android:padding="10dp"/>
+                    android:contentDescription="@string/ic"/>
                  <TextView
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:textStyle="bold"
-                     android:text="@string/flight"
-                     android:textColor="@color/colorSecondaryText"
-                     android:textSize="18sp"/>
+                     style="@style/CardText"
+                     android:text="@string/flight"/>
             </LinearLayout>
          </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:layout_margin="10dp"
-            android:clickable="true"
-            android:focusable="true">
+            style="@style/CardStyle">
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:background="@color/colorTextPrimary"
-                android:orientation="vertical">
+                style="@style/CardLayout">
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    style="@style/CardImage"
                     android:src="@drawable/ic_mail_black_24dp"
                     android:background="@drawable/button_menu"
-                    android:contentDescription="@string/ic"
-                    android:padding="15dp"/>
+                    android:contentDescription="@string/ic"/>
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:text="@string/parcel"
-                    android:textColor="@color/colorSecondaryText"
-                    android:textSize="18sp"/>
+                    style="@style/CardText"
+                    android:text="@string/parcel"/>
             </LinearLayout>
         </android.support.v7.widget.CardView>
     </LinearLayout>
@@ -80,59 +51,32 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <android.support.v7.widget.CardView
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:layout_margin="10dp"
-            android:clickable="true"
-            android:focusable="true">
+            style="@style/CardStyle">
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:background="@color/colorTextPrimary"
-                android:orientation="vertical">
+                style="@style/CardLayout">
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    style="@style/CardImage"
                     android:src="@drawable/ic_notifications_black_24dp"
                     android:background="@drawable/button_menu"
                     android:contentDescription="@string/ic"
-                    android:padding="15dp"/>
+                    />
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:text="@string/tracking"
-                    android:textColor="@color/colorSecondaryText"
-                    android:textSize="18sp"/>
+                    style="@style/CardText"
+                    android:text="@string/tracking"/>
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:layout_margin="10dp"
-            android:clickable="true"
-            android:focusable="true">
+            style="@style/CardStyle">
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:background="@color/colorTextPrimary"
-                android:orientation="vertical">
+                style="@style/CardLayout">
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    style="@style/CardImage"
                     android:src="@drawable/ic_star_black_24dp"
                     android:background="@drawable/button_menu"
-                    android:contentDescription="@string/ic"
-                    android:padding="15dp"/>
+                    android:contentDescription="@string/ic"/>
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:text="@string/favorites"
-                    android:textColor="@color/colorSecondaryText"
-                    android:textSize="18sp"/>
+                    style="@style/CardText"
+                    android:text="@string/favorites"/>
             </LinearLayout>
         </android.support.v7.widget.CardView>
     </LinearLayout>
